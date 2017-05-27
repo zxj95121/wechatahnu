@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Coderthemes">
+	<link rel="shortcut icon" href="#">
+
+	<title>Velonic - Bootstrap Admin theme</title>
+
+	<!-- Google-Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,600,700,900,400italic' rel='stylesheet'>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/prettify.css" />
+	<!-- Custom CSS -->
+	<link href="css/styles.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Velonic Documentation</a>
+			</div>
+
+			<!--div><a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a></div-->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<div id="wrapper">
+
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li>
+					<a href="#intro">Introduction</a>
+				</li>
+				<li>
+					<a href="#structure">Structure</a>
+				</li>
+				<li>
+					<a href="#reference">Application Module</a>
+				</li>
+				<li>
+					<a href="#utilities">Utilities</a>
+				</li>
+				<li>
+					<a href="#plugins">Plugins &amp; Resources</a>
+				</li>
+				<li>
+					<a href="#credits">Credits</a>
+				</li>
+				<li>
+					<a href="#support">Support</a>
+				</li>
+				<li><a href="#changelog">Change Log</a></li>
+			</ul>
+		</div>
+		<!-- /#sidebar-wrapper -->
+
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="right-bar">
+
+							<div id="intro" class="com-container">
+								<h4 class="page-header">Introduction</h4>
+
+								<p>Velonic is a fully featured 	premium admin template built on top of awesome <strong>Bootstrap 3.3.6</strong>,
+									modern web technology <strong>HTML5, CSS3 and jQuery</strong>.
+									It has many ready to use hand crafted components. The theme is fully responsive and easy customizable and
+									the code is super easy to understand gives power to any developer to turn this theme into real web application.</p>
+
+
+									<p>We really care for our buyers and so in case if you have any question or feedback, please feel free to
+										get back to us.</p>
+
+										<div class="p-t-20">
+											<div class="alert alert-info alert-dismissable">
+												Submit your support request either on platform itself or via an <a href="mailto:coderthemes@gmail.com">email</a>.
+											</div>
+										</div>
+									</div>
+
+
+
+									<div id="structure" class="com-container">
+										<h4 class="page-header">Structure</h4>
+										<p>Following section explains the theme File &amp; Folder, structure, html file struture and plugins.</p>
+
+										<div class="row">
+											<div class="col-sm-12">
+												<h4>File &amp; Folder Structure</h4>
+
+												<pre class="prettyprint">
+Admin/
+├── assets/
+│   └── All Plugins files
+├── css/
+│   └── All Common Css files
+├── fonts/
+├── img/
+│   └── album/
+└── js/
+    └── All common Javascripts files
+</pre>
+											</div>
+
+											<div class="col-sm-12">
+												<h4>HTML Structure</h4>
+												<p>
+
+	<!-- HTML generated using hilite.me --><div style="overflow:auto;width:auto;"><pre style="margin: 0; line-height: 125%"><span style="color: #666666">&lt;</span>body<span style="color: #666666">&gt;</span>
+
+        <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Aside Start<span style="color: #666666">--&gt;</span>
+        <span style="color: #666666">&lt;</span>aside class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;left-panel&quot;</span><span style="color: #666666">&gt;</span>
+
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> brand <span style="color: #666666">--&gt;</span>
+            <span style="color: #666666">&lt;</span>div class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;logo&quot;</span><span style="color: #666666">&gt;</span>
+                <span style="color: #666666">&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;index.html&quot;</span> class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;logo-expanded&quot;</span><span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>img src<span style="color: #666666">=</span><span style="color: #BA2121">&quot;img/single-logo.png&quot;</span> alt<span style="color: #666666">=</span><span style="color: #BA2121">&quot;logo&quot;</span><span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Velonic<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;</span>
+                <span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;</span>
+            <span style="color: #666666">&lt;/</span>div<span style="color: #666666">&gt;</span>
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> <span style="color: #666666">/</span> brand <span style="color: #666666">--&gt;</span>
+        
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Navbar Start <span style="color: #666666">--&gt;</span>
+            <span style="color: #666666">&lt;</span>nav class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;navigation&quot;</span><span style="color: #666666">&gt;</span>
+                <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;active&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;index.html&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-home&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Dashboard<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;has-submenu&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;#&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-flask&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;</span> <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>UI Elements<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;typography.html&quot;</span><span style="color: #666666">&gt;</span>Typograpy<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;buttons.html&quot;</span><span style="color: #666666">&gt;</span>Buttons<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;icons.html&quot;</span><span style="color: #666666">&gt;</span>Icons<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;panels.html&quot;</span><span style="color: #666666">&gt;</span>Panels<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;tabs-accordions.html&quot;</span><span style="color: #666666">&gt;</span>Tabs <span style="color: #666666">&amp;</span>amp; Accordions<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;modals.html&quot;</span><span style="color: #666666">&gt;</span>Modals<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;bootstrap-ui.html&quot;</span><span style="color: #666666">&gt;</span>BS Elements<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;progressbars.html&quot;</span><span style="color: #666666">&gt;</span>Progress Bars<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;notification.html&quot;</span><span style="color: #666666">&gt;</span>Notification<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;sweet-alert.html&quot;</span><span style="color: #666666">&gt;</span>Sweet<span style="color: #666666">-</span>Alert<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;/</span>li<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;has-submenu&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;#&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-settings&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;</span> <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Components<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;grid.html&quot;</span><span style="color: #666666">&gt;</span>Grid<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;portlets.html&quot;</span><span style="color: #666666">&gt;</span>Portlets<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;widgets.html&quot;</span><span style="color: #666666">&gt;</span>Widgets<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nestable-list.html&quot;</span><span style="color: #666666">&gt;</span>Nesteble<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;calendar.html&quot;</span><span style="color: #666666">&gt;</span>Calendar<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;/</span>li<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;has-submenu&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;#&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-compose&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;</span> <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Forms<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;form-elements.html&quot;</span><span style="color: #666666">&gt;</span>General Elements<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;form-validation.html&quot;</span><span style="color: #666666">&gt;</span>Form Validation<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;form-advanced.html&quot;</span><span style="color: #666666">&gt;</span>Advanced Form<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;form-wizard.html&quot;</span><span style="color: #666666">&gt;</span>Form Wizard<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;form-editor.html&quot;</span><span style="color: #666666">&gt;</span>WYSIWYG Editor<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;code-editor.html&quot;</span><span style="color: #666666">&gt;</span>Code Editors<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;form-uploads.html&quot;</span><span style="color: #666666">&gt;</span>Multiple File Upload<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;image-crop.html&quot;</span><span style="color: #666666">&gt;</span>Image Crop<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;/</span>li<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;has-submenu&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;#&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-grid&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;</span> <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Data Tables<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;tables.html&quot;</span><span style="color: #666666">&gt;</span>Basic Tables<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;table-datatable.html&quot;</span><span style="color: #666666">&gt;</span>Data Table<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;/</span>li<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;has-submenu&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;#&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-stats-bars&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;</span> <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Charts<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;morris-chart.html&quot;</span><span style="color: #666666">&gt;</span>Morris Chart<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;chartjs.html&quot;</span><span style="color: #666666">&gt;</span>Chartjs<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;c3-chart.html&quot;</span><span style="color: #666666">&gt;</span>C3 Chart<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;other-chart.html&quot;</span><span style="color: #666666">&gt;</span>Other Chart<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;/</span>li<span style="color: #666666">&gt;</span>
+
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;has-submenu&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;#&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-email&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;</span> <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Mail<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;inbox.html&quot;</span><span style="color: #666666">&gt;</span>Inbox<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;email-compose.html&quot;</span><span style="color: #666666">&gt;</span>Compose Mail<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;email-read.html&quot;</span><span style="color: #666666">&gt;</span>View Mail<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;/</span>li<span style="color: #666666">&gt;</span>
+
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;has-submenu&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;#&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-location&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;</span> <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Maps<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;gmap.html&quot;</span><span style="color: #666666">&gt;</span> Google Map<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;vector-map.html&quot;</span><span style="color: #666666">&gt;</span> Vector Map<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;/</span>li<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;</span>li class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;has-submenu&quot;</span><span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;#&quot;</span><span style="color: #666666">&gt;&lt;</span>i class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;ion-document&quot;</span><span style="color: #666666">&gt;&lt;/</span>i<span style="color: #666666">&gt;</span> <span style="color: #666666">&lt;</span>span class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;nav-label&quot;</span><span style="color: #666666">&gt;</span>Pages<span style="color: #666666">&lt;/</span>span<span style="color: #666666">&gt;&lt;/</span>a<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;</span>ul class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;list-unstyled&quot;</span><span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;profile.html&quot;</span><span style="color: #666666">&gt;</span>Profile<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;timeline.html&quot;</span><span style="color: #666666">&gt;</span>Timeline<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;invoice.html&quot;</span><span style="color: #666666">&gt;</span>Invoice<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;contact.html&quot;</span><span style="color: #666666">&gt;</span>Contact<span style="color: #666666">-</span><span style="color: #008000">list</span><span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;login.html&quot;</span><span style="color: #666666">&gt;</span>Login<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;register.html&quot;</span><span style="color: #666666">&gt;</span>Register<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;recoverpw.html&quot;</span><span style="color: #666666">&gt;</span>Recover Password<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;lock-screen.html&quot;</span><span style="color: #666666">&gt;</span>Lock Screen<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;blank.html&quot;</span><span style="color: #666666">&gt;</span>Blank Page<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;404.html&quot;</span><span style="color: #666666">&gt;404</span> Error<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;404_alt.html&quot;</span><span style="color: #666666">&gt;404</span> alt<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                            <span style="color: #666666">&lt;</span>li<span style="color: #666666">&gt;&lt;</span>a href<span style="color: #666666">=</span><span style="color: #BA2121">&quot;500.html&quot;</span><span style="color: #666666">&gt;500</span> Error<span style="color: #666666">&lt;/</span>a<span style="color: #666666">&gt;&lt;/</span>li<span style="color: #666666">&gt;</span>
+                        <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+                    <span style="color: #666666">&lt;/</span>li<span style="color: #666666">&gt;</span>
+                <span style="color: #666666">&lt;/</span>ul<span style="color: #666666">&gt;</span>
+            <span style="color: #666666">&lt;/</span>nav<span style="color: #666666">&gt;</span>
+                
+        <span style="color: #666666">&lt;/</span>aside<span style="color: #666666">&gt;</span>
+        <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Aside Ends<span style="color: #666666">--&gt;</span>
+
+
+        <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span>Main Content Start <span style="color: #666666">--&gt;</span>
+        <span style="color: #666666">&lt;</span>section class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;content&quot;</span><span style="color: #666666">&gt;</span>
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Header <span style="color: #666666">--&gt;</span>
+            <span style="color: #666666">&lt;</span>header class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;top-head container-fluid&quot;</span><span style="color: #666666">&gt;</span>
+            <span style="color: #666666">&lt;/</span>header<span style="color: #666666">&gt;</span>
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Header Ends <span style="color: #666666">--&gt;</span>
+
+
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Page Content Start <span style="color: #666666">--&gt;</span>
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> <span style="color: #666666">==================</span> <span style="color: #666666">--&gt;</span>
+
+            <span style="color: #666666">&lt;</span>div class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;wraper container-fluid&quot;</span><span style="color: #666666">&gt;</span>
+                <span style="color: #666666">&lt;</span>div class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;page-title&quot;</span><span style="color: #666666">&gt;</span> 
+                    <span style="color: #666666">&lt;</span>h3 class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;title&quot;</span><span style="color: #666666">&gt;</span>Welcome <span style="border: 1px solid #FF0000">!</span><span style="color: #666666">&lt;/</span>h3<span style="color: #666666">&gt;</span> 
+                <span style="color: #666666">&lt;/</span>div<span style="color: #666666">&gt;</span>
+
+            <span style="color: #666666">&lt;/</span>div<span style="color: #666666">&gt;</span>
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Page Content Ends <span style="color: #666666">--&gt;</span>
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> <span style="color: #666666">==================</span> <span style="color: #666666">--&gt;</span>
+
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Footer Start <span style="color: #666666">--&gt;</span>
+            <span style="color: #666666">&lt;</span>footer class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;footer&quot;</span><span style="color: #666666">&gt;</span>
+                <span style="color: #666666">2015</span> <span style="border: 1px solid #FF0000">©</span> Velonic<span style="color: #666666">.</span>
+            <span style="color: #666666">&lt;/</span>footer<span style="color: #666666">&gt;</span>
+            <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Footer Ends <span style="color: #666666">--&gt;</span>
+
+
+        <span style="color: #666666">&lt;/</span>section<span style="color: #666666">&gt;</span>
+        <span style="color: #666666">&lt;</span><span style="border: 1px solid #FF0000">!</span><span style="color: #666666">--</span> Main Content Ends <span style="color: #666666">--&gt;</span>
+
+    <span style="color: #666666">&lt;/</span>body<span style="color: #666666">&gt;</span>
+<span style="color: #666666">&lt;/</span>html<span style="color: #666666">&gt;</span>
+</pre></div>
+
+
+
+											</div>
+
+
+											<div class="col-sm-12">
+												<h4>Plugins</h4>
+												<p>
+													All the plugins can be found in assets directory. Each plugin folder is containing files from plugins as well as initilization file for the plugin if required.
+													Somep plugins don't require any initialization, they can direclt act on html markup itself, but some requires explicit intilization. So for them you'll be
+													able to see the initialization js file in plugin directory itself.
+												</p>
+											</div>
+										</div>
+									</div>
+
+
+									<div id="reference" class="com-container">
+										<h4 class="page-header">Application (JS module) Reference</h4>
+
+										<p>We have crafted all the JS based components very carefuly. The theme follows prototype based approch which gives performance
+											and efficiency. We have one common app module which is present in each and every page.
+											This is called "VelonicApp", please see file <code>js/jquery.app.js</code> file. Note that when you are adding new page,
+											you should add this file becuase it contains some common initialization code as mentioned below.</p>
+
+											<p>
+<pre class="prettyprint">
+	//initializing tooltip
+	VelonicApp.prototype.initTooltipPlugin = function() {
+		$.fn.tooltip && $('[data-toggle="tooltip"]').tooltip()
+	},
+
+	//initializing popover
+	VelonicApp.prototype.initPopoverPlugin = function() {
+		$.fn.popover && $('[data-toggle="popover"]').popover()
+	},
+
+	//initializing nicescroll
+	VelonicApp.prototype.initNiceScrollPlugin = function() {
+		//You can change the color of scroll bar here
+		$.fn.niceScroll &&  $(".nicescroll").niceScroll({ cursorcolor: '#9d9ea5', cursorborderradius: '0px'});
+	},
+
+	//initializing knob
+	VelonicApp.prototype.initKnob = function() {
+		if ($(".knob").length > 0) {
+			$(".knob").knob();
+		}
+	}
+</pre>
+										</div>
+
+										<div id="utilities" class="com-container">
+											<h4 class="page-header">Utilities</h4>
+											<p>The theme contains various utilies including some helper classes, widgets, etc. Please see below some helper classes.</p>
+
+											<p><b>Helper Classes:</b></p>
+											<table class="table">
+								                <thead>
+								                  <tr>
+								                    <th>Class</th>
+								                    <th>Description</th>
+								                  </tr>
+								                </thead>
+
+								                <tbody>
+
+								                    <tr>
+									                    <td><b>.p-0</b>
+									                    </td>
+									                    <td>Removes all padding space</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.p-t-0</b></td>
+								                        <td>Remove top padding</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.p-t-10</b></td>
+								                        <td>Adds 10px top padding</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.p-b-10</b></td>
+								                        <td>Adds 10px bottom padding</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-0</b></td>
+								                        <td>Remove all margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-r-5</b></td>
+								                        <td>Adds 5px right margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-r-10</b></td>
+								                        <td>Adds 10px right margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-r-15</b></td>
+								                        <td>Adds 15px right margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-l-10</b></td>
+								                        <td>Adds 10px left margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-l-15</b></td>
+								                        <td>Adds 15px left margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-t-0</b></td>
+								                        <td>Remove top margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-t-10</b></td>
+								                        <td>Adds 10px top margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-t-15</b></td>
+								                        <td>Adds 15px top margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-t-20</b></td>
+								                        <td>Adds 20px top margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-t-30</b></td>
+								                        <td>Adds 30px top margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-t-40</b></td>
+								                        <td>Adds 40px top margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-b-0</b></td>
+								                        <td>Remove bottom margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-b-10</b></td>
+								                        <td>Adds 10px bottom margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-b-15</b></td>
+								                        <td>Adds 15px bottom margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.m-b-30</b></td>
+								                        <td>Adds 30px bottom margin</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.w-xs</b></td>
+								                        <td>Minimum width 80px</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.w-sm</b></td>
+								                        <td>Minimum width 95px</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.w-md</b></td>
+								                        <td>Minimum width 110px</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.w-lg</b></td>
+								                        <td>Minimum width 140px</td>
+									                </tr>
+
+									                <tr>
+									                	<td><b>.b-0</b></td>
+								                        <td>Removes all borders</td>
+									                </tr>
+
+								
+								                </tbody>
+								            </table>
+										</div>
+
+
+										<div id="plugins" class="com-container">
+											<h4 class="page-header">Plugins &amp; Resources</h4>
+											<p>The theme is using various awesome plugins in order to provide some functionalitity e.g. Nestables, Calendars, beautiful graphs, data grid, vector maps, etc.</p>
+
+											<p>You can find them in below list. Click to expand it, you'll see more information</p>
+
+
+											<ul class="list-none" id="plugin-list">
+												<li>
+													<a class="btn btn-link" data-toggle="collapse" href="#bscalender" aria-expanded="false" aria-controls="bscalender">
+														Bootstrap Calendar
+													</a>
+													<div class="collapse" id="bscalender">
+														<div class="well">
+															<p>
+																A simple twitter bootstrap calendar / agenda to mark events and select range of dates.
+
+																<pre class="prettyprint">&lt;link href="assets/bootstrap-calendarbic_calendar.css&quot; rel="stylesheet"&gt;</pre>
+																<pre class="prettyprint">&lt;script src="assets/bootstrap-calendar/bic_calendar.min.js&quot;&gt;&lt;/script&gt;</pre>
+
+															<p>
+																See documentation here: http://bichotll.github.io/bic_calendar
+															</p>
+														</div>
+													</div>
+												</li>
+
+												<li>
+													<a class="btn btn-link" data-toggle="collapse" href="#bootstrap-inputmask" aria-expanded="false" aria-controls="bootstrap-inputmask">
+														Bootstrap Inputmask
+													</a>
+													<div class="collapse" id="bootstrap-inputmask">
+														<div class="well">
+															<p>
+																Bootstrap bootstrap-inputmask plugin
+
+																<pre class="prettyprint">&lt;script src="assets/bootstrap-inputmask/bootstrap-inputmask.min.js&quot;&gt;&lt;/script&gt;</pre>
+
+															<p>
+																See documentation here: http://getbootstrap.com
+															</p>
+														</div>
+													</div>
+												</li>
+
+												<li>
+													<a class="btn btn-link" data-toggle="collapse" href="#wysihtml" aria-expanded="false" aria-controls="wysihtml">
+														Bootstrap Wysihtml5
+													</a>
+													<div class="collapse" id="wysihtml">
+														<div class="well">
+															<p>
+																Open source rich text editor based on HTML5 and the progressive-enhancement approach. Uses a sophisticated security concept
+																and aims to generate fully valid HTML5 markup by preventing unmaintainable tag soups and inline styles.
+
+																<pre class="prettyprint">&lt;link href="assets/bootstrap-wysihtml5/bootstrap-wysihtml5.css&quot; rel="stylesheet"&gt;</pre>
+																<pre class="prettyprint">&lt;link href="assets/bootstrap-wysihtml5/wysiwyg-color.css&quot; rel="stylesheet"&gt;</pre>
+																<pre class="prettyprint">&lt;script src="assets/bootstrap-wysihtml5/wysihtml5-0.3.0.js&quot;&gt;&lt;/script&gt;</pre>
+																<pre class="prettyprint">&lt;script src="assets/bootstrap-wysihtml5/bootstrap-wysihtml5.js&quot;&gt;&lt;/script&gt;</pre>
+
+															</p>
+															<p>
+																See documentation here: http://wysihtml.com/
+															</p>
+														</div>
+													</div>
+												</li>
+
+												<li>
+													<a class="btn btn-link" data-toggle="collapse" href="#bseditable" aria-expanded="false" aria-controls="bseditable">
+														Bootstrap Xeditable
+													</a>
+													<div class="collapse" id="bseditable">
+														<div class="well">
+															<p>
+																In-place editing with Twitter Bootstrap
+
+																<pre class="prettyprint">&lt;link href="assets/bootstrap-xeditable/bootstrap-editable.css&quot; rel="stylesheet"&gt;</pre>
+																<pre class="prettyprint">&lt;script src="assets/bootstrap-xeditable/bootstrap-editable.min&quot;&gt;&lt;/script&gt;</pre>
+
+															</p>
+															<p>
+																See documentation here: http://github.com/vitalets/x-editable
+															</p>
+														</div>
+													</div>
+												</li>
+
+												<p><b>You can add any plugins above.</b></p>
+
+											</ul>
+										</div>
+
+
+										<div id="credits" class="com-container">
+											<h4 class="page-header">Credits &amp; Official Documentation</h4>
+											<p>We've used the following resources as listed.</p>
+
+											<ul class="">
+								                <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+								                <li><a href="https://jquery.com/">Jquery</a></li>
+								                <li><a href="http://fortawesome.github.io/Font-Awesome/">Font-Awesome</a></li>
+								                <li><a href="http://ionicons.com/">Ionicons</a></li>
+								                <li><a href="http://daneden.github.io/animate.css/">Animate.css</a></li>
+								                <li><a href="https://github.com/matthieua/WOW">Wow.js</a></li>
+								                <li><a href="http://tristanedwards.me/sweetalert">Sweet-Alert</a></li>
+								                <li><a href="http://www.codrops.com">Codrops</a></li>
+								                <li><a href="http://dbushell.com/">Nestable</a></li>
+								                <li><a href="http://areaaperta.com/nicescroll/">Nicescroll</a></li>
+								                <li><a href="http://arshaw.com/fullcalendar/">Full Calendar</a></li>
+								                <li><a href="http://jqueryvalidation.org/">Form Validator</a></li>
+								                <li><a href="https://github.com/xoxco/jQuery-Tags-Input">Tags Input</a></li>
+								                <li><a href="http://simontabor.com/labs/toggles">Toggels</a></li>
+								                <li><a href="http://jdewit.github.com/bootstrap-timepicker">Bootstrap-timepicker</a></li>
+								                <li><a href="http://www.eyecon.ro/bootstrap-colorpicker">Bootstrap Colorpicker</a></li>
+								                <li><a href="http://loudev.com/">Multi-select</a></li>
+								                <li><a href="https://select2.github.io/">Select2</a></li>
+								                <li><a href="http://bootstrapvalidator.com">Bootstrapvalidator</a></li>
+								                <li><a href="http://www.jquery-steps.com">Jquery-steps</a></li>
+								                <li><a href="https://github.com/xing/wysihtml5">Wysihtml5</a></li>
+								                <li><a href="https://github.com/summernote/summernote">Summernote</a></li>
+								                <li><a href="https://codemirror.net/">Codemirror</a></li>
+								                <li><a href="http://www.dropzonejs.com/">Dropzonejs</a></li>
+								                <li><a href="https://github.com/fengyuanchen/cropper">Cropper</a></li>
+								                <li><a href="https://www.datatables.net">Datatables</a></li>
+								                <li><a href="http://morrisjs.github.io/morris.js/">Morris</a></li>
+								                <li><a href="http://chartjs.org/">Chartjs</a></li>
+								                <li><a href="http://c3js.org/">C3 Chart</a></li>
+								                <li><a href="http://omnipotent.net/jquery.sparkline/">Sparkline</a></li>
+								                <li><a href="https://github.com/aterrien/jQuery-Knob">JQuery-Knob</a></li>
+								                <li><a href="http://robert-fleischmann.de">Robert-fleischmann</a></li>
+								                <li><a href="https://hpneo.github.io/gmaps/">Gmaps</a></li>
+								                <li><a href="http://jqvmap.com">Vector Maps</a></li>
+								                <li><a href="http://uifaces.com/">Uifaces (images)</a></li>
+								                <li><a href="https://unsplash.com/">Unsplash (images)</a></li>
+
+								                <li><a href="http://www.flotcharts.org/">Flot-charts</a></li>
+								                <li><a href="http://code.shutterstock.com/rickshaw/">Rickshaw</a></li>
+								                <li><a href="http://github.hubspot.com/pace/docs/welcome/">Pace (loader)</a></li>
+								            </ul>
+										</div>
+
+										<div id="support" class="com-container">
+											<h4 class="page-header">Support</h4>
+											<p>
+												We would be happy to help you if you have any questions relating to this theme. Please feel free to get back to us directly on the platform itself or via <a href="mailto:coderthemes@gmail.com">email</a>
+											</p>
+
+											<p><div class="alert alert-info alert-dismissable">
+												Submit your support request either on platform itself or via an <a href="mailto:coderthemes@gmail.com">email</a>.
+												
+											</div></p>
+										</div>
+
+										<div id="changelog" class="com-container">
+											<h4 class="page-header">Change Log</h4>
+
+											<p style="text-decoration: underline; font-weight: 900;"><strong>Version 3.0</strong></p>
+											<p>&nbsp;</p>
+
+
+											<ul>
+												<li>
+													<p>Added new color scheme and minor changes in layout</p>
+												</li>
+												
+											</ul>
+
+											<p style="text-decoration: underline; font-weight: 900;padding-top:30px;"><strong>Version 2.2</strong></p>
+											<p>&nbsp;</p>
+
+
+											<ul>
+												<li>
+													<p>Added new color scheme and minor changes in layout</p>
+												</li>
+												
+											</ul>
+
+											<p style="text-decoration: underline; font-weight: 900;padding-top:30px;"><strong>Version 2.1</strong></p>
+											<p>&nbsp;</p>
+
+
+											<ul>
+												<li>
+													<p>Update bootstrap to 3.3.6</p>
+												</li>
+												<li>
+													<p>Fixes: Scroll footer</p>
+												</li>
+												<li>
+													<p>Minor changes in layout (old admin)</p>
+												</li>
+											</ul>
+											
+											<p style="text-decoration: underline; font-weight: 900;padding-top:30px;"><strong>Version 2.0</strong></p>
+											<p>&nbsp;</p>
+
+
+											<ul>
+												<li>
+													<p>Added new color scheme and minor changes in layout</p>
+												</li>
+												<li>
+													<p>Fixes: Sticky footer</p>
+												</li>
+												<li>
+													<p>Following new pages have been added</p>
+													<ul>
+														<li>Range Slider</li>
+														<li>X-Editable</li>
+														<li>Editable Table</li>
+														<li>Responsive Table</li>
+														<li>Peity Charts</li>
+														<li>Email Template</li>
+													</ul>
+												</li>
+											</ul>
+
+
+
+											<p style="text-decoration: underline; font-weight: 900;padding-top:30px;"><strong>Version 1.1 </strong></p>
+											<p>&nbsp;</p>
+
+
+											<ul>
+												<li>
+													<p>Added page loader - uses pace to show loading when a page is getting load</p>
+												</li>
+												<li>
+													<p>Added New Pages:</p>
+													<ul>
+														<li>Dashboard 2 - more charts for analytics</li>
+														<li>Flot Chart</li>
+														<li>Rickshaw Chart</li>
+													</ul>
+												</li>
+
+												<li>
+													<p>Updated Pages:</p>
+													<ul>
+														<li>Profile</li>
+														<li>Progressbar</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /#page-content-wrapper -->
+
+					<div class="text-center">
+						<p class="copy">Copyright © 2015 Velonic.</p>
+					</div>
+				</div>
+				<!-- /#wrapper -->
+
+				<!-- jQuery -->
+				<script src="js/jquery.js"></script>
+
+				<!-- Bootstrap Core JavaScript -->
+				<script src="js/bootstrap.min.js"></script>
+
+				<script src="js/jquery.easing.min.js"></script>
+
+				<script type="text/javascript" src="js/prettify.js"></script>
+
+				<!-- Menu Toggle Script -->
+				<script>
+
+					//jQuery for page scrolling feature - requires jQuery Easing plugin
+					$(function() {
+					    $('.sidebar-nav a').bind('click', function(event) {
+					        var $anchor = $(this);
+					        $('html, body').stop().animate({
+					            scrollTop: $($anchor.attr('href')).offset().top - 100
+					        }, 1500, 'easeInOutExpo');
+					        event.preventDefault();
+					    });
+					});
+				</script>
+
+			</body>
+
+			</html>
