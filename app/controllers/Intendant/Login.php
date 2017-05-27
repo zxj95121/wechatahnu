@@ -18,6 +18,8 @@ class Login extends CI_Controller {
     // 2、扫码一次过后再扫码会出现什么问题103行
 
     public function index() {
+        echo $_SERVER['DOCUMENT_ROOT'];
+        exit;
         /*生成二维码*/
         /*先在数据库中找有没有status为3的二维码，3表示已经登录成功过。*/
         $data = $this->db->where('status','3')->get('login_status');
