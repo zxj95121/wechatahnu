@@ -111,7 +111,7 @@ class Cnet extends CI_Controller {
 					$id = $db->row_array()['id'];
 					$this->session->set_userdata('id', $id);
 					$this->session->set_userdata('openid', $openid);
-					return redirect(httpd('/oss/cnet/show?nickname='.$userinfo['nickname'].'?headimgurl='.$userinfo['headimgurl']));
+					return redirect(httpd('/oss/cnet/show?nickname='.$userinfo['nickname']));
 				}
 			}
 		}
@@ -252,7 +252,6 @@ class Cnet extends CI_Controller {
 		if ($result['errcode'] == 0) {
 			/*查成功*/
 			$result['openid'] = $data['openid'];
-			$result['headimgurl'] = $this->input->get('headimgurl');
 			$this->load->view('oss/cnet/show', $result);
 		} else {
 			/*查失败了，跳到提醒页面*/

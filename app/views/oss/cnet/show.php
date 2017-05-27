@@ -164,7 +164,7 @@ $signPackage = $jssdk->GetSignPackage();
 		    wx.onMenuShareTimeline({
 			    title: '<?php echo $nickname; ?>这个月校园网已经用了<?php echo $all;?>G,快来查一查自己用了多少校园网吧~', // 分享标题
 			    link: 'wechat.zhangxianjian.com/oss/cnet/cnet', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-			    imgUrl: '<?php echo $headimgurl;?>', // 分享图标
+			    imgUrl: 'wechat.zhangxianjian.com/public/images/jssdk_xin.jpg', // 分享图标
 			    success: function () { 
 			        // 用户确认分享后执行的回调函数
 			        alert('恭喜你，分享成功');
@@ -178,7 +178,7 @@ $signPackage = $jssdk->GetSignPackage();
 			    title: '<?php echo $nickname; ?>这个月校园网已经用了<?php echo $all;?>G,快来查一查自己用了多少校园网吧~', // 分享标题
 			    desc: '记得在微信打开链接哦', // 分享描述
 			    link: 'wechat.zhangxianjian.com/oss/cnet/cnet', // 分享链接
-			    imgUrl: '<?php echo $headimgurl;?>', // 分享图标
+			    imgUrl: 'wechat.zhangxianjian.com/public/images/jssdk_xin.jpg', // 分享图标
 			    success: function () { 
 			       // 用户确认分享后执行的回调函数
 			       alert('恭喜你，分享成功');
