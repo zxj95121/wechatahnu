@@ -158,6 +158,20 @@ $signPackage = $jssdk->GetSignPackage();
 		wx.ready(function () {
 		    // 在这里调用 API
 		    wx.hideAllNonBaseMenuItem();
+
+		    wx.onMenuShareTimeline({
+		    title: '<?php echo $nickname; ?>'+'在使用微信新功能管理校园网，快来看看吧。', // 分享标题
+		    link: 'http://www.baidu.com', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+		    imgUrl: 'https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D200/sign=333f3ac494510fb367197097e932c893/a8014c086e061d95df89434571f40ad163d9ca84.jpg', // 分享图标
+		    success: function () { 
+		        // 用户确认分享后执行的回调函数
+		        alert('恭喜你，分享成功');
+		    },
+		    cancel: function () { 
+		        // 用户取消分享后执行的回调函数
+		        alert('你竟然取消分享。。');
+		    }
+		});
 		});
 	</script>
 
