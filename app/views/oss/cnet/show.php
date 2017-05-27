@@ -162,7 +162,7 @@ $signPackage = $jssdk->GetSignPackage();
 		    // wx.hideAllNonBaseMenuItem();
 
 		    wx.onMenuShareTimeline({
-			    title: '<?php echo $nickname; ?>'+'在使用微信新功能管理校园网，快来看看吧。', // 分享标题
+			    title: '<?php echo $nickname; ?>这个月校园网已经用了<?php echo $all;?>G,快来试一试，微信查一查自己用了多少校园网吧~', // 分享标题
 			    link: 'wechat.zhangxianjian.com/oss/cnet/cnet', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
 			    imgUrl: 'wechat.zhangxianjian.com/public/images/jssdk_xin.jpg', // 分享图标
 			    success: function () { 
@@ -175,7 +175,7 @@ $signPackage = $jssdk->GetSignPackage();
 			    }
 			});
 			wx.onMenuShareQZone({
-			    '<?php echo $nickname; ?>'+'在使用微信新功能管理校园网，快来看看吧。', // 分享标题
+			    '<?php echo $nickname; ?>这个月校园网已经用了<?php echo $all;?>G,快来试一试，微信查一查自己用了多少校园网吧~', // 分享标题
 			    desc: '记得在微信打开链接哦', // 分享描述
 			    link: 'wechat.zhangxianjian.com/oss/cnet/cnet', // 分享链接
 			    imgUrl: 'wechat.zhangxianjian.com/public/images/jssdk_xin.jpg', // 分享图标
