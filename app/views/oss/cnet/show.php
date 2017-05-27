@@ -157,7 +157,7 @@ $signPackage = $jssdk->GetSignPackage();
 		});
 		wx.ready(function () {
 		    // 在这里调用 API
-		    wx.hideAllNonBaseMenuItem();
+		    // wx.hideAllNonBaseMenuItem();
 
 		    wx.onMenuShareTimeline({
 		    title: '<?php echo $nickname; ?>'+'在使用微信新功能管理校园网，快来看看吧。', // 分享标题
